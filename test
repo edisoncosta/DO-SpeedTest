@@ -30,11 +30,11 @@ finish="[$(tput setaf 4)DONE$(tput sgr0)]"
 ##
 
 # Check for root
-if [[ "$(id -u)" == "0" ]]
-then
-  echo "$fail Do not run this script as root."
-  exit 1
-fi
+#if [[ "$(id -u)" == "0" ]]
+#then
+#  echo "$fail Do not run this script as root."
+#  exit 1
+#fi
 
 # Check for wget
 which wget > /dev/null
